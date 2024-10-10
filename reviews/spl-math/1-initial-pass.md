@@ -3,6 +3,7 @@
 (The link to the spl-math library)
 [https://github.com/solana-labs/solana-program-library/tree/master/libraries/math]
 
+(The link to the docs.rs)[https://docs.rs/spl-math/latest/spl_math/]
 
 ## Reference Commit
 
@@ -22,7 +23,6 @@ https://github.com/solana-labs/solana-program-library/commit/cd6ce4b7709d2420bca
 -> entrypoint.rs 
 -> error.rs
 -> instruction.rs
--> lib.rs
 -> precise_number.rs
 
 4. Need to dig deep into each file, to review the business logic and the algorithms used for the each arithmetic operations.
