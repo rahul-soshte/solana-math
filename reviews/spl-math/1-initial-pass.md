@@ -16,13 +16,4 @@ https://github.com/solana-labs/solana-program-library/commit/cd6ce4b7709d2420bca
 
 2. It is a onchain math program and not a standalone library. So need to CPI call to do some arithmetic operation.
 
-3. The following distinct files which define the business logic of the math lib
-
--> approximation.rs
--> checked_ceil_div.rs
--> entrypoint.rs 
--> error.rs
--> instruction.rs
--> precise_number.rs
-
-4. Need to dig deep into each file, to review the business logic and the algorithms used for the each arithmetic operations.
+3. Need to dig deep into each file, to review the business logic and the algorithms used for the each arithmetic operations.
