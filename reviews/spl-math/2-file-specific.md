@@ -1,6 +1,5 @@
 # File Specific Observation of the spl-math library
 
-
 ## entrypoint.rs
 
 It has the standard process_instruction function found in most native solana program which process the instructions related to the spl-math program.
@@ -47,8 +46,50 @@ Logarithm of a f32 float value
 
 9. F32NormalCDF 
 
+Calculate the Cumulative Distribution Function of a normal distribution of F32 values
+
+10. F64Pow
+
+Power of a f64 base with a f64 exponent
+
+11. U128Multiply 
+
+Multiply 2 u128 values
+
+12. U128Divide 
+
+Divide 2 U128 values
+
+13. F64Divide 
+
+Divide 2 f64 values
+
+14. F64Multiply
+
+Multiply 2 f64 values
 
 
+15. Noop
 
-##   
+Something like an empty instruction which doesnt do anything as such.
 
+##  error.rs
+
+Declares 2 error types, Overflow and Underflow. Nothing much in this files besides that.
+
+## precise_number.rs
+
+A wrapper for U256 to do operations like power and square root and basic arithmetic support of mul, div, add and sub. Not normal cdf as well.
+
+## checked_ceil_div.rs
+
+Don't know in which use case will this be used, but this division method is more about finetuning the quotient and divisor.
+
+## approximations.rs
+
+Useful for calculating square root, but not sure if it can be used for arithmetic calculations of large integers since it only shows usage of u128 and f32 in the unit tests.
+
+
+## processor.rs
+
+Standard file for any solana program.
