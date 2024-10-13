@@ -79,7 +79,7 @@ Declares 2 error types, Overflow and Underflow. Nothing much in this files besid
 
 ## precise_number.rs
 
-A wrapper for U256 to do operations like power and square root and basic arithmetic support of mul, div, add and sub. Not normal cdf as well.
+A wrapper for U256 to do operations like power and square root and basic arithmetic support of mul, div, add and sub. No normal cdf and logarithms is implemented for it tho.
 
 ## checked_ceil_div.rs
 
